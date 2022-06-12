@@ -108,9 +108,6 @@ p{
 }  
 
 .insta {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 6rem;
     overflow: hidden;
 }
@@ -118,23 +115,27 @@ p{
 .insta img{
     height: 3rem;
     width: 3rem;
-    margin-left: 75rem;
-    flex-direction: column-reverse;
+    margin-right: 75rem;
+    
+  
     
 }
 
-.whast {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 6rem;
-    overflow: hidden;
+.insta a {
+    display: block;
+    border-radius: 5;
+    font-weight: bold;
+    line-height: 1.3;
 }
+
+
+
 
 
 .whast img{
     height: 3rem;
     width: 3rem;
-    margin-left: 75rem;
-    flex-direction: column-reverse;
+    margin-right: 75rem;
+    border-right: 10px;
+   
 }
