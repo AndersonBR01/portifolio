@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(190, 209, 23);
+}
+
+/*==============img==============*/
+
+.img-container{
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*adicionar baner*/
+    background-image: url(/assets/179222.jpg);
+}
+
+.pp-container{
+    position: relative;
+}
+
+.pp{
+    height: 150px;
+    width: 150px;
+
+    border-radius: 100%;
+    margin: 0;
+
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*=================nav================*/
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+ /*=================main================*/
+main{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+/*=================buttons================*/
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    background-color: aqua;
+    width: 60vw;
+    padding: 1rem;
+    margin: 0.3rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.button:hover{
+    background-color:blueviolet;
+    transform: scale(1.03);
+}
+
+/*=================icon================*/
+
+.icon{
+    margin: 10px;
+    color: brown;
+}
+
+.icon:hover{
+
+    color: bisque;
+}
+
+
+
