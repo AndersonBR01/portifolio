@@ -3,3 +3,14 @@
 body{
     background-color: #786450;
 }
+
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+}
